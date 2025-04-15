@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ligma.uz - You Just Got Got</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #fff;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      border: 4px solid #333;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+    .joke {
+      font-size: 1.5em;
+      margin: 20px 0;
+      color: #f39c12;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to <span style="color:#f39c12;">Ligma.uz</span></h1>
+  <p class="joke" id="joke">Loading ligma joke...</p>
+
+
+  <div class="footer">
+    <p><strong>Who started ligma?</strong></p>
+    <p>Ligma started as a bait joke in 2018 when someone tweeted “Did you hear Ninja died of ligma?”<br/> Naturally, someone asked “What’s ligma?” — and got DESTROYED: “Ligma balls.” 😭</p>
+    <p>&copy; 2025 Ligma Research Institute. All jokes certified free-range and organic 🥚</p>
+  </div>
+
+  <script>
+
+    const jokes = [
+      "What’s ligma? Ligma balls 😏",
+      "Doctor: You’ve got ligma. Me: What’s ligma? Doctor: 😈",
+      "Bro said ‘ligma ain't real’… now he’s gone 💀",
+      "Ninja died of ligma. Who’s Ninja? EXACTLY.",
+      "You can't run from ligma. Only embrace it."
+    ];
+
+    const randomMeme = memes[Math.floor(Math.random() * memes.length)];
+    const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+
+    document.getElementById("joke").textContent = randomJoke;
+  </script>
+
+</body>
+</html>
